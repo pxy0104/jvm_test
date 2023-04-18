@@ -15,6 +15,8 @@ public class Test1 {
         System.out.println("初始内存"+Xms/1024/1024 + "M");
         System.out.println("系统内存"+Xms*64/1024/1024/1024 + "G");
         System.out.println("系统内存"+Xmx*4/1024/1024/1024 + "G");
+        String abc = "abc";
+        String intern = abc.intern();
 //        try {
 //            Thread.sleep(1000);
 //        } catch (InterruptedException e) {
